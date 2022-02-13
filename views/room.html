@@ -61,9 +61,9 @@
         var msg = $("#msg");
         var log = $("#log");
         if(window.WebSocket) {
-            conn = new WebSocket("wss://www.wuzuoda.xyz/ws?uid="+uid+"&to_uid="+to_uid);
+            conn = new WebSocket("wss://43.154.50.232/ws?uid="+uid+"&to_uid="+to_uid);
             conn.onclose = function(evt) {
-                    appendLog($("<div><b>连接关闭</b></div>"+evt))
+                    appendLog($("<div><b>连接关闭</b></div>"))
                 }
             conn.onmessage = function(evt) {
                 appendLog($("<div/>").text(evt.data))
