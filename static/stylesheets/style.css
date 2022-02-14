@@ -17,6 +17,10 @@
 	background-size: cover;
 }
 
+.room{
+	background: url('../images/2_bg.jpg') no-repeat fixed top;
+	background-size: cover
+}
 
 
 
@@ -240,7 +244,6 @@ ul{
 
 .rooms .room_list{
 	margin-top: 260px;
-	margin-left: 100px;
 	width: 960px;
 }
 .rooms .room_list a>span {
@@ -309,9 +312,9 @@ ul{
 	width: 100%;
 }
 .room .input .center{
-	max-width: 910px;
+	max-width: 810px;
 	width: 100%;
-	height: 120px;
+	height: 40px;
 	margin: 0 auto;
 	background: url('../images/room_input_bg.png');
 }

@@ -33,9 +33,9 @@
 		<div class="main container">
 			<div class="room_list">
 				{{range .rooms}}
-				<div class="col-xs-6 col-sm-6 col-md-4">
+				<div class="col-xs-2 col-sm-4 col-md-4">
 					<a href="/room/{{ .id }}" class="thumbnail">
-						<img src="/static/images/rooms/00{{ .id }}.jpg" alt="聊天室{{ .id }}" style="height: 400px;">
+						<img src="/static/images/rooms/00{{ .id }}.jpg" alt="聊天室{{ .id }}">
 						<span><span class='glyphicon glyphicon-user'></span>&nbsp;{{ .num }}</span>
 					</a>
 				</div>
